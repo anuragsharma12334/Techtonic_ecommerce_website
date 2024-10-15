@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Light background color */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%; /* Full width */
+    background-color: #e3e3e3; /* Grey background color */
+    text-align: left; /* Align text to the left */
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Position at the very top */
+    left: 0; /* Align to the left */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+}
+
+.logo-container {
+    max-width: 1200px; /* Optional: Max width for larger screens */
+    margin: 0; /* No margin */
+    padding: 10px 20px; /* Add padding if needed */
+}
+
+.logo-container h1 {
+    font-size: 36px; /* Larger font size */
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+}
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffcc00; /* Light yellow color */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative; /* Added for positioning the icon */
+}
+
+input {
+    width: calc(100% - 20px); /* Adjust width to fit better */
+    padding: 8px; /* Decrease padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px; /* Adjust font size if needed */
+    margin: 5px 0; /* Add some margin for spacing */
+}
+
+
+.toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 10px; /* Positioning to the right */
+    top: 10px; /* Center vertically */
+    color: #ffcc00; /* Change icon color */
+    font-size: 18px; /* Size of the icon */
+}
+
+button {
+    background-color: #ffcc00; /* Light yellow */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+
+.signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #ffcc00; /* Light yellow */
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
